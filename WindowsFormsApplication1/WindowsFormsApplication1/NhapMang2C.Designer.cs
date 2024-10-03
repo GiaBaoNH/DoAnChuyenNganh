@@ -76,7 +76,7 @@
             this.data_Mang2C.RowTemplate.Height = 24;
             this.data_Mang2C.Size = new System.Drawing.Size(614, 294);
             this.data_Mang2C.TabIndex = 11;
-     
+            this.data_Mang2C.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.data_Mang2C_CellContentClick);
             // 
             // label2
             // 

@@ -117,5 +117,10 @@ namespace WindowsFormsApplication1
                 MessageBox.Show("Vui lòng nhập dữ liệu trước!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void data_Mang2C_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
