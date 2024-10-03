@@ -43,6 +43,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -150,12 +151,14 @@
             // panel_body
             // 
             this.panel_body.Controls.Add(this.dataGridView1);
+            this.panel_body.Controls.Add(this.button1);
             this.panel_body.Controls.Add(this.panel2);
             this.panel_body.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_body.Location = new System.Drawing.Point(243, 0);
             this.panel_body.Name = "panel_body";
             this.panel_body.Size = new System.Drawing.Size(991, 770);
             this.panel_body.TabIndex = 1;
+            this.panel_body.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_body_Paint);
             // 
             // panel2
             // 
@@ -211,14 +214,23 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(336, 221);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(560, 518);
+            this.dataGridView1.Location = new System.Drawing.Point(553, 229);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(245, 38);
-            this.dataGridView1.TabIndex = 13;
+            this.dataGridView1.Size = new System.Drawing.Size(187, 130);
+            this.dataGridView1.TabIndex = 14;
             // 
             // GiaoDien
             // 
@@ -263,5 +275,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button1;
     }
 }

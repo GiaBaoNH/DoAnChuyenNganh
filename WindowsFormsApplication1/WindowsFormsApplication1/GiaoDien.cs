@@ -33,6 +33,10 @@ namespace WindowsFormsApplication1
         private Form currFormChild;
         private void OpenChildForm(Form childForm)
         {
+            foreach (Control control in this.Controls)
+            {
+                control.Visible = false; // Ẩn điều khiển
+            }
             if(currFormChild!=null)
             {
                 currFormChild.Close();
@@ -41,8 +45,8 @@ namespace WindowsFormsApplication1
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
-            //panel_body.Controls.Add(childForm);
-            //panel_body.BringToFront();
+            panel_body.Controls.Add(childForm);
+            panel_body.BringToFront();
             childForm.Show();
         }
 
@@ -81,6 +85,11 @@ namespace WindowsFormsApplication1
                 // Đóng form nếu người dùng chọn Yes
                 this.Close();
             }
+        }
+
+        private void panel_body_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
       
