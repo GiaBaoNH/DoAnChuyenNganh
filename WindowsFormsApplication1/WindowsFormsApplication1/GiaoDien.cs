@@ -42,7 +42,7 @@ namespace WindowsFormsApplication1
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
             //panel_body.Controls.Add(childForm);
-            panel_body.BringToFront();
+            //panel_body.BringToFront();
             childForm.Show();
         }
 
