@@ -62,23 +62,24 @@ namespace WindowsFormsApplication1
                 // Khởi tạo mảng 2 chiều
                 array2D = new int[rows, cols];
 
+                // Lưu mảng vào DataStorage
+                DuLieuNhap.SharedArray = array2D;
+                DuLieuNhap.Rows = rows;
+                DuLieuNhap.Columns = cols;
+
                 // Cấu hình DataGridView
                 data_Mang2C.RowCount = rows;
                 data_Mang2C.ColumnCount = cols;
 
-                // Nhập dữ liệu từ bàn phím vào mảng 2 chiều
                 // Nhập dữ liệu từ bàn phím vào mảng 2 chiều
                 for (int i = 0; i < rows; i++)
                 {
                     for (int j = 0; j < cols; j++)
                     {
                         string value = Prompt.ShowDialog("Nhập giá trị tại [" + i + ", " + j + "]", "Nhập giá trị");
-
-                        // Khai báo biến result bên ngoài điều kiện
                         int result;
 
-                        // Kiểm tra giá trị nhập vào có hợp lệ không
-                        if (int.TryParse(value, out result)) // Sử dụng biến result đã khai báo ở trên
+                        if (int.TryParse(value, out result))
                         {
                             array2D[i, j] = result;
                             data_Mang2C.Rows[i].Cells[j].Value = result; // Cập nhật giá trị vào DataGridView
@@ -90,7 +91,6 @@ namespace WindowsFormsApplication1
                         }
                     }
                 }
-
             }
             else
             {
@@ -101,6 +101,11 @@ namespace WindowsFormsApplication1
         private void NhapMang2C_Load(object sender, EventArgs e)
         {
             data_Mang2C.DefaultCellStyle.ForeColor = Color.Black;  // Màu chữ toàn bộ DataGridView là màu đen
+        }
+
+        private void data_Mang2C_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

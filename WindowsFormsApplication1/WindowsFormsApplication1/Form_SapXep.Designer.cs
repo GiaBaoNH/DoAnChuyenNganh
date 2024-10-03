@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.data_SapXep = new System.Windows.Forms.DataGridView();
             this.btn_Tinh = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -38,24 +38,25 @@
             this.cob_TinhToan = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.data_SapXep)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // data_SapXep
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(124, 18);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(661, 353);
-            this.dataGridView1.TabIndex = 0;
+            this.data_SapXep.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.data_SapXep.Location = new System.Drawing.Point(124, 18);
+            this.data_SapXep.Name = "data_SapXep";
+            this.data_SapXep.RowTemplate.Height = 24;
+            this.data_SapXep.Size = new System.Drawing.Size(661, 353);
+            this.data_SapXep.TabIndex = 0;
+            this.data_SapXep.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.data_SapXep_CellContentClick);
             // 
             // btn_Tinh
             // 
             this.btn_Tinh.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btn_Tinh.Font = new System.Drawing.Font("UVN Chim Bien Nang", 12F);
+            this.btn_Tinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Tinh.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btn_Tinh.Location = new System.Drawing.Point(645, 151);
             this.btn_Tinh.Name = "btn_Tinh";
@@ -90,17 +91,17 @@
             // lbl_KetQua
             // 
             this.lbl_KetQua.AutoSize = true;
-            this.lbl_KetQua.Font = new System.Drawing.Font("UVN Chim Bien Nang", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_KetQua.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_KetQua.Location = new System.Drawing.Point(99, 189);
             this.lbl_KetQua.Name = "lbl_KetQua";
-            this.lbl_KetQua.Size = new System.Drawing.Size(101, 28);
+            this.lbl_KetQua.Size = new System.Drawing.Size(91, 25);
             this.lbl_KetQua.TabIndex = 6;
             this.lbl_KetQua.Text = "Kết quả :";
             // 
             // btn_Nhap
             // 
             this.btn_Nhap.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btn_Nhap.Font = new System.Drawing.Font("UVN Chim Bien Nang", 12F);
+            this.btn_Nhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Nhap.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btn_Nhap.Location = new System.Drawing.Point(645, 79);
             this.btn_Nhap.Name = "btn_Nhap";
@@ -112,7 +113,7 @@
             // btn_Xoa
             // 
             this.btn_Xoa.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btn_Xoa.Font = new System.Drawing.Font("UVN Chim Bien Nang", 12F);
+            this.btn_Xoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btn_Xoa.ForeColor = System.Drawing.SystemColors.Desktop;
             this.btn_Xoa.Location = new System.Drawing.Point(645, 223);
             this.btn_Xoa.Name = "btn_Xoa";
@@ -135,16 +136,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("UVN Chim Bien Nang", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(100, 118);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 28);
+            this.label1.Size = new System.Drawing.Size(101, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "Phép toán";
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.dataGridView1);
+            this.panel1.Controls.Add(this.data_SapXep);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 292);
             this.panel1.Name = "panel1";
@@ -161,7 +162,7 @@
             this.Name = "Form_SapXep";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form_SapXep";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.data_SapXep)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -171,7 +172,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView data_SapXep;
         private System.Windows.Forms.Button btn_Tinh;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;

@@ -17,6 +17,34 @@ namespace WindowsFormsApplication1
             InitializeComponent();
         }
 
+        private void data_SapXep_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+        private void data_SapXepLoad(object sender, EventArgs e)
+        {
+            // Kiểm tra nếu mảng có dữ liệu
+            if (DuLieuNhap.SharedArray != null)
+            {
+                int rows = DuLieuNhap.Rows;
+                int cols = DuLieuNhap.Columns;
+
+                // Cấu hình DataGridView
+                data_SapXep.RowCount = rows;
+                data_SapXep.ColumnCount = cols;
+
+                // Điền dữ liệu từ DataStorage vào DataGridView
+                for (int i = 0; i < rows; i++)
+                {
+                    for (int j = 0; j < cols; j++)
+                    {
+                        data_SapXep.Rows[i].Cells[j].Value = DuLieuNhap.SharedArray[i, j];
+                    }
+                }
+            }
+        }
+
+
        
     }
 }

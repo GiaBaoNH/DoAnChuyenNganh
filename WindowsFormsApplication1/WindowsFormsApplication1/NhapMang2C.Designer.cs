@@ -44,11 +44,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("UVN Chim Bien Nang", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label1.Location = new System.Drawing.Point(168, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(449, 60);
+            this.label1.Size = new System.Drawing.Size(411, 51);
             this.label1.TabIndex = 9;
             this.label1.Text = "Nhập mảng 2 chiều";
             // 
@@ -75,26 +75,27 @@
             this.data_Mang2C.RowTemplate.Height = 24;
             this.data_Mang2C.Size = new System.Drawing.Size(614, 294);
             this.data_Mang2C.TabIndex = 11;
+            this.data_Mang2C.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.data_Mang2C_CellContentClick);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("UVN Chim Bien Nang", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label2.Location = new System.Drawing.Point(112, 119);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(152, 28);
+            this.label2.Size = new System.Drawing.Size(140, 25);
             this.label2.TabIndex = 12;
             this.label2.Text = "Nhập số cột :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("UVN Chim Bien Nang", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label3.Location = new System.Drawing.Point(112, 171);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(174, 28);
+            this.label3.Size = new System.Drawing.Size(159, 25);
             this.label3.TabIndex = 13;
             this.label3.Text = "Nhập số dòng :";
             // 
