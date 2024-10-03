@@ -46,6 +46,11 @@ namespace WindowsFormsApplication1
             }
         }
 
+        private void data_SapXep_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
 
        
     }
