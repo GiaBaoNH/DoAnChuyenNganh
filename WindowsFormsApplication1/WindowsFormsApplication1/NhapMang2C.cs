@@ -11,6 +11,8 @@ namespace WindowsFormsApplication1
         public NhapMang2C()
         {
             InitializeComponent();
+            this.Load += new EventHandler(NhapMang2C_Load);
+
         }
 
         // Nút để quay lại trang chủ
