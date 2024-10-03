@@ -33,10 +33,6 @@ namespace WindowsFormsApplication1
         private Form currFormChild;
         private void OpenChildForm(Form childForm)
         {
-            foreach (Control control in this.Controls)
-            {
-                control.Visible = false; // Ẩn điều khiển
-            }
             if(currFormChild!=null)
             {
                 currFormChild.Close();
