@@ -11,8 +11,6 @@ namespace WindowsFormsApplication1
         public NhapMang2C()
         {
             InitializeComponent();
-            this.Load += new EventHandler(NhapMang2C_Load);
-
         }
 
         // Nút để quay lại trang chủ
@@ -102,14 +100,22 @@ namespace WindowsFormsApplication1
 
         private void NhapMang2C_Load(object sender, EventArgs e)
         {
-            data_Mang2C.DefaultCellStyle.ForeColor = Color.Black;  // Màu chữ toàn bộ DataGridView là màu đen
+            
         }
 
         private void btn_TiepTuc_Click(object sender, EventArgs e)
         {
-            GiaoDien gd = new GiaoDien();
-            gd.Show();
-            this.Close();
+            // Chỉ mở form nếu có dữ liệu
+            if (DuLieuNhap.SharedArray != null)
+            {
+                GiaoDien gd = new GiaoDien();
+                gd.Show();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng nhập dữ liệu trước!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

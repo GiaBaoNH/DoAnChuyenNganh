@@ -19,12 +19,6 @@ namespace WindowsFormsApplication1
             this.Load += new EventHandler(Form_SapXep_Load);
         }
 
-        private void data_SapXep_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-       
-
         private void Form_SapXep_Load(object sender, EventArgs e)
         {
             // Kiểm tra nếu mảng có dữ liệu

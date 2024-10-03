@@ -51,7 +51,6 @@
             this.data_SapXep.RowTemplate.Height = 24;
             this.data_SapXep.Size = new System.Drawing.Size(661, 353);
             this.data_SapXep.TabIndex = 0;
-            this.data_SapXep.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.data_SapXep_CellContentClick);
             // 
             // btn_Tinh
             // 

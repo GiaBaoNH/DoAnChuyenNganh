@@ -41,7 +41,7 @@ namespace WindowsFormsApplication1
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
-            panel_body.Controls.Add(childForm);
+            //panel_body.Controls.Add(childForm);
             panel_body.BringToFront();
             childForm.Show();
         }

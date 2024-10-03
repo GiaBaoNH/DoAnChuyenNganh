@@ -43,6 +43,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel_body.SuspendLayout();
@@ -50,6 +51,7 @@
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -82,11 +84,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("UVN Chim Bien Nang", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(37, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 60);
+            this.label1.Size = new System.Drawing.Size(153, 51);
             this.label1.TabIndex = 8;
             this.label1.Text = "MENU";
             // 
@@ -147,6 +149,7 @@
             // 
             // panel_body
             // 
+            this.panel_body.Controls.Add(this.dataGridView1);
             this.panel_body.Controls.Add(this.panel2);
             this.panel_body.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_body.Location = new System.Drawing.Point(243, 0);
@@ -168,11 +171,11 @@
             // 
             this.lbl_TieuDe.AutoSize = true;
             this.lbl_TieuDe.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_TieuDe.Font = new System.Drawing.Font("UVN Chim Bien Nang", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_TieuDe.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_TieuDe.ForeColor = System.Drawing.Color.Maroon;
             this.lbl_TieuDe.Location = new System.Drawing.Point(160, 12);
             this.lbl_TieuDe.Name = "lbl_TieuDe";
-            this.lbl_TieuDe.Size = new System.Drawing.Size(111, 46);
+            this.lbl_TieuDe.Size = new System.Drawing.Size(101, 38);
             this.lbl_TieuDe.TabIndex = 9;
             this.lbl_TieuDe.Text = "Lable";
             // 
@@ -208,6 +211,15 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(319, 183);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(369, 222);
+            this.dataGridView1.TabIndex = 13;
+            // 
             // GiaoDien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -229,6 +241,7 @@
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -249,5 +262,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
