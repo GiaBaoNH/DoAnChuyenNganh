@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0110\u1ED3 \u00E1n\\\u0110\u1ED3 \u00E1n\\WindowsFormsApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FB863E-24BF-422F-B5BF-6B3E681BA4CB}|WindowsFormsApplication1\\DoAnTotNghiep.csproj|d:\\\u0111\u1ED3 \u00E1n\\\u0111\u1ED3 \u00E1n\\windowsformsapplication1\\windowsformsapplication1\\giaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1FB863E-24BF-422F-B5BF-6B3E681BA4CB}|WindowsFormsApplication1\\DoAnTotNghiep.csproj|solutionrelative:windowsformsapplication1\\giaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FB863E-24BF-422F-B5BF-6B3E681BA4CB}|WindowsFormsApplication1\\DoAnTotNghiep.csproj|d:\\\u0111\u1ED3 \u00E1n\\\u0111\u1ED3 \u00E1n\\windowsformsapplication1\\windowsformsapplication1\\form_tinhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1FB863E-24BF-422F-B5BF-6B3E681BA4CB}|WindowsFormsApplication1\\DoAnTotNghiep.csproj|solutionrelative:windowsformsapplication1\\form_tinhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FB863E-24BF-422F-B5BF-6B3E681BA4CB}|WindowsFormsApplication1\\DoAnTotNghiep.csproj|d:\\\u0111\u1ED3 \u00E1n\\\u0111\u1ED3 \u00E1n\\windowsformsapplication1\\windowsformsapplication1\\form_timkiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1FB863E-24BF-422F-B5BF-6B3E681BA4CB}|WindowsFormsApplication1\\DoAnTotNghiep.csproj|solutionrelative:windowsformsapplication1\\form_timkiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FB863E-24BF-422F-B5BF-6B3E681BA4CB}|WindowsFormsApplication1\\DoAnTotNghiep.csproj|d:\\\u0111\u1ED3 \u00E1n\\\u0111\u1ED3 \u00E1n\\windowsformsapplication1\\windowsformsapplication1\\form_sapxep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1FB863E-24BF-422F-B5BF-6B3E681BA4CB}|WindowsFormsApplication1\\DoAnTotNghiep.csproj|solutionrelative:windowsformsapplication1\\form_sapxep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FB863E-24BF-422F-B5BF-6B3E681BA4CB}|WindowsFormsApplication1\\DoAnTotNghiep.csproj|d:\\\u0111\u1ED3 \u00E1n\\\u0111\u1ED3 \u00E1n\\windowsformsapplication1\\windowsformsapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FB863E-24BF-422F-B5BF-6B3E681BA4CB}|WindowsFormsApplication1\\DoAnTotNghiep.csproj|solutionrelative:windowsformsapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FB863E-24BF-422F-B5BF-6B3E681BA4CB}|WindowsFormsApplication1\\DoAnTotNghiep.csproj|d:\\\u0111\u1ED3 \u00E1n\\\u0111\u1ED3 \u00E1n\\windowsformsapplication1\\windowsformsapplication1\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1FB863E-24BF-422F-B5BF-6B3E681BA4CB}|WindowsFormsApplication1\\DoAnTotNghiep.csproj|solutionrelative:windowsformsapplication1\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FB863E-24BF-422F-B5BF-6B3E681BA4CB}|WindowsFormsApplication1\\DoAnTotNghiep.csproj|d:\\\u0111\u1ED3 \u00E1n\\\u0111\u1ED3 \u00E1n\\windowsformsapplication1\\windowsformsapplication1\\nhapmang2c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1FB863E-24BF-422F-B5BF-6B3E681BA4CB}|WindowsFormsApplication1\\DoAnTotNghiep.csproj|solutionrelative:windowsformsapplication1\\nhapmang2c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 281,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 244,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form_TimKiem.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n\\\u0110\u1ED3 \u00E1n\\WindowsFormsApplication1\\WindowsFormsApplication1\\Form_TimKiem.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApplication1\\Form_TimKiem.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n\\\u0110\u1ED3 \u00E1n\\WindowsFormsApplication1\\WindowsFormsApplication1\\Form_TimKiem.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApplication1\\Form_TimKiem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T06:19:40.116Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form_SapXep.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n\\\u0110\u1ED3 \u00E1n\\WindowsFormsApplication1\\WindowsFormsApplication1\\Form_SapXep.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApplication1\\Form_SapXep.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n\\\u0110\u1ED3 \u00E1n\\WindowsFormsApplication1\\WindowsFormsApplication1\\Form_SapXep.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApplication1\\Form_SapXep.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T06:19:38.917Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form_TinhToan.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n\\\u0110\u1ED3 \u00E1n\\WindowsFormsApplication1\\WindowsFormsApplication1\\Form_TinhToan.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApplication1\\Form_TinhToan.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n\\\u0110\u1ED3 \u00E1n\\WindowsFormsApplication1\\WindowsFormsApplication1\\Form_TinhToan.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApplication1\\Form_TinhToan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T06:19:36.112Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n\\\u0110\u1ED3 \u00E1n\\WindowsFormsApplication1\\WindowsFormsApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApplication1\\Program.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n\\\u0110\u1ED3 \u00E1n\\WindowsFormsApplication1\\WindowsFormsApplication1\\Program.cs",
+              "RelativeToolTip": "WindowsFormsApplication1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T06:19:34.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GiaoDien.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n\\\u0110\u1ED3 \u00E1n\\WindowsFormsApplication1\\WindowsFormsApplication1\\GiaoDien.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApplication1\\GiaoDien.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n\\\u0110\u1ED3 \u00E1n\\WindowsFormsApplication1\\WindowsFormsApplication1\\GiaoDien.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApplication1\\GiaoDien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T06:19:27.796Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TrangChu.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n\\\u0110\u1ED3 \u00E1n\\WindowsFormsApplication1\\WindowsFormsApplication1\\TrangChu.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApplication1\\TrangChu.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n\\\u0110\u1ED3 \u00E1n\\WindowsFormsApplication1\\WindowsFormsApplication1\\TrangChu.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApplication1\\TrangChu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T06:19:33.826Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NhapMang2C.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n\\\u0110\u1ED3 \u00E1n\\WindowsFormsApplication1\\WindowsFormsApplication1\\NhapMang2C.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApplication1\\NhapMang2C.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n\\\u0110\u1ED3 \u00E1n\\WindowsFormsApplication1\\WindowsFormsApplication1\\NhapMang2C.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApplication1\\NhapMang2C.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T06:19:29.29Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 14,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -13,3 +13,9 @@ D:\HOC KY 8\DoAnTotNghiep\WindowsFormsApplication1\WindowsFormsApplication1\obj\
 D:\HOC KY 8\DoAnTotNghiep\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form_TimKiem.resources
 D:\HOC KY 8\DoAnTotNghiep\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form_TinhToan.resources
 D:\HOC KY 8\DoAnTotNghiep\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.RandomForm.resources
+D:\Đồ án\Đồ án\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Đồ án\Đồ án\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Đồ án\Đồ án\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Doan\Doan\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Doan\Doan\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Doan\Doan\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
