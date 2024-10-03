@@ -54,14 +54,14 @@ namespace WindowsFormsApplication1
 
         private void btn_SapXep_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Form_TimKiem());
+            OpenChildForm(new Form_SapXep());
             lbl_TieuDe.Text = "Sắp xếp trong mảng 2 chiều";
 
         }
 
         private void btn_TimKiem_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Form_SapXep());
+            OpenChildForm(new Form_TimKiem());
             lbl_TieuDe.Text = "Tìm kiếm trong mảng 2 chiều";
 
         }

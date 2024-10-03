@@ -46,6 +46,10 @@ namespace WindowsFormsApplication1
                     }
                 }
             }
+            else
+            {
+                MessageBox.Show("Không có dữ liệu để hiển thị.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
 
