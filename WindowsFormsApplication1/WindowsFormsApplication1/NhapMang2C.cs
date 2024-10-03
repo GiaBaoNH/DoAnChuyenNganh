@@ -65,9 +65,9 @@ namespace WindowsFormsApplication1
                 array2D = new int[rows, cols];
 
                 // Lưu mảng vào DataStorage
-                DuLieuNhap.SharedArray = array2D;
-                DuLieuNhap.Rows = rows;
-                DuLieuNhap.Columns = cols;
+                DuLieuNhap.SharedArray = array2D; // Lưu mảng vào lớp DuLieuNhap
+                DuLieuNhap.Rows = rows; // Cập nhật số dòng
+                DuLieuNhap.Columns = cols; // Cập nhật số cột
 
                 // Cấu hình DataGridView
                 data_Mang2C.RowCount = rows;
