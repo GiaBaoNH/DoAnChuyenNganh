@@ -15,13 +15,16 @@ namespace WindowsFormsApplication1
         public Form_SapXep()
         {
             InitializeComponent();
+            this.Load += new EventHandler(Form_SapXep_Load);
         }
 
         private void data_SapXep_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
-        private void data_SapXepLoad(object sender, EventArgs e)
+       
+
+        private void Form_SapXep_Load(object sender, EventArgs e)
         {
             // Kiểm tra nếu mảng có dữ liệu
             if (DuLieuNhap.SharedArray != null)

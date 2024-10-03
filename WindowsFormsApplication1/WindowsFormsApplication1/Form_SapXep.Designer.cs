@@ -162,6 +162,7 @@
             this.Name = "Form_SapXep";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form_SapXep";
+            this.Load += new System.EventHandler(this.Form_SapXep_Load);
             ((System.ComponentModel.ISupportInitialize)(this.data_SapXep)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
