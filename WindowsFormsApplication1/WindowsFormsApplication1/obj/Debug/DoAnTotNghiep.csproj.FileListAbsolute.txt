@@ -19,3 +19,6 @@ D:\Đồ án\Đồ án\WindowsFormsApplication1\WindowsFormsApplication1\obj\Deb
 D:\Doan\Doan\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 D:\Doan\Doan\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 D:\Doan\Doan\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
