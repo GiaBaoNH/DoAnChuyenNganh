@@ -52,13 +52,14 @@ namespace WindowsFormsApplication1
                     array2D[i, j] = rand.Next(1, 100); // Số ngẫu nhiên từ 1 đến 100
                     data_MangRandom.Rows[i].Cells[j].Value = array2D[i, j];
 
-                    //// Cập nhật màu sắc ô để thể hiện việc thêm giá trị
-                    //data_MangRandom.Rows[i].Cells[j].Style.BackColor = Color.LightGreen;
+                    // Tùy chọn: Cập nhật màu sắc ô để thể hiện việc thêm giá trị
+                    data_MangRandom.Rows[i].Cells[j].Style.BackColor = Color.LightGreen;
 
-                    //// Đợi một khoảng thời gian để người dùng có thể thấy sự thay đổi
-                    //await Task.Delay(100); // Thay đổi thời gian nếu cần
+                    // Đợi một khoảng thời gian để người dùng có thể thấy sự thay đổi (cần biến phương thức thành async)
+                    // await Task.Delay(100); // Thay đổi thời gian nếu cần
                 }
             }
+
         }
 
         private void btn_Xoa_Click(object sender, EventArgs e)
