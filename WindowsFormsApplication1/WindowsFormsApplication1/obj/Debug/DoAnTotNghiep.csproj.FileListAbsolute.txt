@@ -13,6 +13,7 @@ D:\HOC KY 8\DoAnTotNghiep\WindowsFormsApplication1\WindowsFormsApplication1\obj\
 D:\HOC KY 8\DoAnTotNghiep\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form_TimKiem.resources
 D:\HOC KY 8\DoAnTotNghiep\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form_TinhToan.resources
 D:\HOC KY 8\DoAnTotNghiep\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.RandomForm.resources
+<<<<<<< HEAD
 E:\DoAnChuyenNganh\DoAnTotNghiep\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 E:\DoAnChuyenNganh\DoAnTotNghiep\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 E:\DoAnChuyenNganh\DoAnTotNghiep\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
@@ -28,3 +29,26 @@ E:\DoAnChuyenNganh\DoAnTotNghiep\WindowsFormsApplication1\WindowsFormsApplicatio
 E:\DoAnChuyenNganh\DoAnTotNghiep\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DoAnTotNghiep.csproj.GenerateResource.Cache
 E:\DoAnChuyenNganh\DoAnTotNghiep\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
 E:\DoAnChuyenNganh\DoAnTotNghiep\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+=======
+D:\Đồ án\Đồ án\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Đồ án\Đồ án\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Đồ án\Đồ án\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Doan\Doan\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Doan\Doan\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Doan\Doan\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DoAnTotNghiep.csprojResolveAssemblyReference.cache
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form_SapXep.resources
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form_TimKiem.resources
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form_TinhToan.resources
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.GiaoDien.resources
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.NhapMang2C.resources
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.RandomForm.resources
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.TrangChu.resources
+D:\HOC KY 8\DoAnTotNghiepChuyenNganh\DoAnChuyenNganh\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DoAnTotNghiep.csproj.GenerateResource.Cache
+>>>>>>> b449a8b8f33b09f1e1be524d777304af3048dd4e

@@ -103,9 +103,11 @@ namespace WindowsFormsApplication1
             data_Mang2C.DefaultCellStyle.ForeColor = Color.Black;  // Màu chữ toàn bộ DataGridView là màu đen
         }
 
-        private void data_Mang2C_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void btn_TiepTuc_Click(object sender, EventArgs e)
         {
-
+            GiaoDien gd = new GiaoDien();
+            gd.Show();
+            this.Close();
         }
     }
 }

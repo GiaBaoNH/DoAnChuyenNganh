@@ -37,6 +37,7 @@
             this.txt_Dong = new System.Windows.Forms.TextBox();
             this.btn_Nhap = new System.Windows.Forms.Button();
             this.btn_Xoa = new System.Windows.Forms.Button();
+            this.btn_TiepTuc = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.data_Mang2C)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,7 +76,7 @@
             this.data_Mang2C.RowTemplate.Height = 24;
             this.data_Mang2C.Size = new System.Drawing.Size(614, 294);
             this.data_Mang2C.TabIndex = 11;
-            this.data_Mang2C.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.data_Mang2C_CellContentClick);
+     
             // 
             // label2
             // 
@@ -115,7 +116,7 @@
             // 
             // btn_Nhap
             // 
-            this.btn_Nhap.BackColor = System.Drawing.Color.Lavender;
+            this.btn_Nhap.BackColor = System.Drawing.Color.LightGray;
             this.btn_Nhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Nhap.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_Nhap.Location = new System.Drawing.Point(481, 125);
@@ -139,12 +140,26 @@
             this.btn_Xoa.UseVisualStyleBackColor = false;
             this.btn_Xoa.Click += new System.EventHandler(this.btn_Xoa_Click);
             // 
+            // btn_TiepTuc
+            // 
+            this.btn_TiepTuc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_TiepTuc.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_TiepTuc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_TiepTuc.Location = new System.Drawing.Point(664, 554);
+            this.btn_TiepTuc.Name = "btn_TiepTuc";
+            this.btn_TiepTuc.Size = new System.Drawing.Size(119, 40);
+            this.btn_TiepTuc.TabIndex = 18;
+            this.btn_TiepTuc.Text = "Tiếp Tục";
+            this.btn_TiepTuc.UseVisualStyleBackColor = true;
+            this.btn_TiepTuc.Click += new System.EventHandler(this.btn_TiepTuc_Click);
+            // 
             // NhapMang2C
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(806, 606);
+            this.Controls.Add(this.btn_TiepTuc);
             this.Controls.Add(this.btn_Xoa);
             this.Controls.Add(this.btn_Nhap);
             this.Controls.Add(this.txt_Dong);
@@ -178,5 +193,6 @@
         private System.Windows.Forms.TextBox txt_Dong;
         private System.Windows.Forms.Button btn_Nhap;
         private System.Windows.Forms.Button btn_Xoa;
+        private System.Windows.Forms.Button btn_TiepTuc;
     }
 }

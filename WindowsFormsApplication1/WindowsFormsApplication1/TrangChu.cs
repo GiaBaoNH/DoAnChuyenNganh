@@ -36,12 +36,10 @@ namespace WindowsFormsApplication1
 
         private void btn_Random_Click(object sender, EventArgs e)
         {
-            GiaoDien gf = new GiaoDien();
-            gf.Show();
+           
+            RandomForm gd = new RandomForm();
+            gd.Show();
             this.Visible = false;
-            //RandomForm gd = new RandomForm();
-            //gd.Show();
-            //this.Visible = false;
         }
     }
 }
