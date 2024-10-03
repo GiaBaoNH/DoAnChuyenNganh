@@ -73,5 +73,12 @@ namespace WindowsFormsApplication1
             tc.Show();  // Hiển thị lại form chính
             this.Close(); // Đóng form hiện tại
         }
+
+        private void btn_TiepTuc_Click(object sender, EventArgs e)
+        {
+            GiaoDien gd = new GiaoDien();
+            gd.Show();
+            this.Close();   
+        }
     }
 }

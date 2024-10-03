@@ -37,6 +37,7 @@
             this.data_MangRandom = new System.Windows.Forms.DataGridView();
             this.btn_QuayLai = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btn_TiepTuc = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.data_MangRandom)).BeginInit();
             this.SuspendLayout();
             // 
@@ -138,11 +139,25 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "Nhập mảng radom";
             // 
+            // btn_TiepTuc
+            // 
+            this.btn_TiepTuc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_TiepTuc.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_TiepTuc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_TiepTuc.Location = new System.Drawing.Point(663, 554);
+            this.btn_TiepTuc.Name = "btn_TiepTuc";
+            this.btn_TiepTuc.Size = new System.Drawing.Size(119, 40);
+            this.btn_TiepTuc.TabIndex = 27;
+            this.btn_TiepTuc.Text = "Tiếp Tục";
+            this.btn_TiepTuc.UseVisualStyleBackColor = true;
+            this.btn_TiepTuc.Click += new System.EventHandler(this.btn_TiepTuc_Click);
+            // 
             // RandomForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(806, 606);
+            this.Controls.Add(this.btn_TiepTuc);
             this.Controls.Add(this.btn_Xoa);
             this.Controls.Add(this.btn_Nhap);
             this.Controls.Add(this.txt_Dong);
@@ -173,5 +188,6 @@
         private System.Windows.Forms.DataGridView data_MangRandom;
         private System.Windows.Forms.Button btn_QuayLai;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btn_TiepTuc;
     }
 }
